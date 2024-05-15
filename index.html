@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Personal Responsive</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
-    <!-- header desing -->
+    <!-- Diseño de la cabecera -->
     <header class="header">
         <a href="#" class="logo">David.</a>
 
+        <div class="bx bx-menu" id="menu-icon"></div>
+
         <nav class="navbar">
-            <a href="#home">Inicio</a>
+            <a href="#home" class="active">Inicio</a>
             <a href="#about">Sobre mi</a>
             <a href="#education">Formación</a>
             <a href="#skills">Skills</a>
@@ -21,6 +26,23 @@
         </nav>
     </header>
 
+    <!-- Diseño de la pagina Inicio -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hola, Soy <span>David Soto</span></h1>
+            <div class="text-animate">
+                <h3>Full Stack Developer</h3>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic autem qui eligendi voluptatem ut numquam nihil cumque fugit. Odit aperiam eum, deserunt quasi nulla quae fugiat modi laborum dicta soluta!
+            </p>
+
+            <div class="btn-box">
+                <a href="" class="btn">Contratame</a>
+                <a href="" class="btn">Hablemos</a>
+            </div>
+        </div>
+    </section>
 
     <script src="index.js"></script>
 </body>
