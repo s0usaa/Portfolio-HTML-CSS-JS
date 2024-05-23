@@ -30,4 +30,9 @@ window.onscroll = () => {
     let header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
+
+// quitar el icono del menu y el navbar cuando hacemos click en los enlaces
+
+menuIcon.classList.remove('bx-x');
+navbar.classList.remove('active');
 }
