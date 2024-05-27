@@ -365,7 +365,7 @@ span {
     align-items: center;
     flex-direction: column;
     min-height: auto;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 
 .education .education-row {
@@ -574,8 +574,11 @@ span {
 /* diseño de la parte de contacto */
 
 .contact {
-    min-height: auto;
-    padding-bottom: 7rem;
+    min-height: 90vh;
+    padding-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact h2 {
