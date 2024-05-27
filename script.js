@@ -26,6 +26,10 @@ window.onscroll = () => {
             // activacion de las animaciones en las secciones con el scroll
             sec.classList.add('show-animate')
         }
+        // si quieres usar una animacion repetida en el scroll usa esto
+        else{
+            sec.classList.remove('show-animate')
+        }
     })
     
     // cabecera sticky
@@ -37,4 +41,8 @@ window.onscroll = () => {
 
 menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
+
+// animacion del footer haciendo scroll
+let footer = document.querySelector('footer');
+footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 }
