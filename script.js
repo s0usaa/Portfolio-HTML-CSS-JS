@@ -23,6 +23,8 @@ window.onscroll = () => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
+            // activacion de las animaciones en las secciones con el scroll
+            sec.classList.add('show-animate')
         }
     })
     
